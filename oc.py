@@ -5,6 +5,7 @@ class Validar:
 
     def __init__(self,conjunto1):
         self.conjunto1 = conjunto1
+        
 
 
     def val_sintaxis(self,conjunto):
@@ -18,10 +19,19 @@ class Validar:
             exit()
 
 
-script, conjunto1 = argv
+script, conjunto1, conjunto2 = argv
 
 c1=Validar(conjunto1)
+c2=Validar(conjunto2)
 c1.val_sintaxis(c1.conjunto1)
+c2.val_sintaxis(c2.conjunto1)
+
+
+
+
+
+
+
 
 
 
